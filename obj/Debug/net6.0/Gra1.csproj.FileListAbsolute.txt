@@ -1,0 +1,15 @@
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\bin\Debug\net6.0\Gra1.exe
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\bin\Debug\net6.0\Gra1.deps.json
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\bin\Debug\net6.0\Gra1.runtimeconfig.json
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\bin\Debug\net6.0\Gra1.dll
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\bin\Debug\net6.0\Gra1.pdb
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\Gra1.csproj.AssemblyReference.cache
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\Gra1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\Gra1.AssemblyInfoInputs.cache
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\Gra1.AssemblyInfo.cs
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\Gra1.csproj.CoreCompileInputs.cache
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\Gra1.dll
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\refint\Gra1.dll
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\Gra1.pdb
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\Gra1.genruntimeconfig.cache
+C:\Users\adasd\OneDrive - Ye9pfoBh9P\Pulpit\C#\Gra1\obj\Debug\net6.0\ref\Gra1.dll
