@@ -85,18 +85,21 @@ namespace project
             switch (spell)
             {
                 case 1:
-                    damage = this.Strength * 2;
+                    damage = this.Strength * 0.9;
                     enemy.HP -= damage;
+                    this.MP -= 9;
                     Console.WriteLine("Fireball hits enemy for {0} damage", damage);
                     break;
                 case 2:
-                    damage = this.Dexterity * 2;
+                    damage = this.Strength * 0.5;
                     enemy.HP -= damage;
+                    this.MP -= 5;
                     Console.WriteLine("Lightning hits enemy for {0} damage", damage);
                     break;
                 case 3:
-                    damage = this.Intelligence * 2;
+                    damage = this.Strength * 2;
                     enemy.HP -= damage;
+                    this.MP -= 20;
                     Console.WriteLine("Ice Shards hit enemy for {0} damage", damage);
                     break;
                 default:
