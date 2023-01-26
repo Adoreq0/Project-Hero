@@ -1,0 +1,9 @@
+{
+  "Dexterity": 10,
+  "Name": "Edward Białykij",
+  "Strength": 6,
+  "Intelligence": 19,
+  "HP": 40,
+  "MP": 56,
+  "Items": ["Wand", "Boots"]
+}

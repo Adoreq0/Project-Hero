@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace project
 {
@@ -21,6 +23,18 @@ namespace project
     private int Intelligence;
     public double HP;
     public double MP;
+    public static Hero Load(string name)
+      {
+        name = name + ".json";
+        string heroString = File.ReadAllText(name);
+        JObject heroJson = JObject.Parse(heroString);
+        Hero hero = new Hero();
+        hero.Name = (string)heroJson["Name"];
+        hero.Strength = (int)heroJson["Strength"];
+        hero.Dexterity = (int)heroJson["Dexterity"];
+        hero.Intelligence = (int)heroJson["Intelligence"];
+        return hero;
+      }
 
     private void Init(int strength = 10, int dexterity = 10, int intelligence = 10)
     {
@@ -39,8 +53,9 @@ namespace project
     public void UpDexterity() { this.Dexterity += 5; }
     public void UpIntelligence() { this.Intelligence += 5; this.MP += (3 * this.Intelligence); }
 
-    public Hero(string name, string myclass)
+    public Hero(string name = "", string myclass = "")
     {
+      
       Name = name;
       switch(myclass)
       {
@@ -133,9 +148,10 @@ namespace project
   {
     static void Main(string[] args)
     {
+      Hero hero1 = Hero.Load("hero");
       int tour = 1;
 
-      Hero hero1 = new Hero("Edward Białykij", "sorcerer");
+      Hero hero = new Hero("Edward Białykij", "sorcerer");
       Console.WriteLine(hero1.Name + " Str:{0} Dex:{1} Int:{2} HP:{3}", hero1.GetStrength(), hero1.GetDexterity(), hero1.GetIntelligence(), hero1.HP);
 
       Hero hero2 = new Hero("Wataszka Stefan", "assassin");
