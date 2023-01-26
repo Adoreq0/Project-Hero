@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace project
 {
@@ -79,7 +80,7 @@ namespace project
 
         public void Spell(Hero enemy)
         {
-            Console.WriteLine("1: Fireball, 2: Lightning, 3: Ice Shards");
+            Console.WriteLine("1: Fireball, 2: Thunder, 3: Flames of hell, 4:Healing potion");
             int spell = int.Parse(Console.ReadLine());
             double damage = 0;
             switch (spell)
@@ -94,13 +95,18 @@ namespace project
                     damage = this.Strength * 0.5;
                     enemy.HP -= damage;
                     this.MP -= 5;
-                    Console.WriteLine("Lightning hits enemy for {0} damage", damage);
+                    Console.WriteLine("Thunder hits enemy for {0} damage", damage);
                     break;
                 case 3:
                     damage = this.Strength * 2;
                     enemy.HP -= damage;
                     this.MP -= 20;
-                    Console.WriteLine("Ice Shards hit enemy for {0} damage", damage);
+                    Console.WriteLine("Flames of hell hit enemy for {0} damage", damage);
+                    break;
+                case 4:
+                    this.HP += 6;
+                    this.MP -= 12;
+                    Console.WriteLine("You healed for 6 HP");
                     break;
                 default:
                     Console.WriteLine("Wrong spell selection");

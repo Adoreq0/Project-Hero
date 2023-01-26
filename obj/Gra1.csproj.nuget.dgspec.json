@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Pulpit\\C#\\Gra1\\Gra1.csproj": {}
+    "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Dokumenty\\GitHub\\Project-Hero\\Gra1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Pulpit\\C#\\Gra1\\Gra1.csproj": {
+    "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Dokumenty\\GitHub\\Project-Hero\\Gra1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Pulpit\\C#\\Gra1\\Gra1.csproj",
+        "projectUniqueName": "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Dokumenty\\GitHub\\Project-Hero\\Gra1.csproj",
         "projectName": "Gra1",
-        "projectPath": "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Pulpit\\C#\\Gra1\\Gra1.csproj",
+        "projectPath": "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Dokumenty\\GitHub\\Project-Hero\\Gra1.csproj",
         "packagesPath": "C:\\Users\\adasd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Pulpit\\C#\\Gra1\\obj\\",
+        "outputPath": "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Dokumenty\\GitHub\\Project-Hero\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adasd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

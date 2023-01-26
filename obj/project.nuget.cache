@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "574fxstv94fzFiONVIM7K51YA9t5gQG+vNr24wASVPSKy1SaPrr9+945oOsE0M1UiVX5uPgESEqtEcM0P9+HoQ==",
+  "dgSpecHash": "PCao9AEhqJv/U/D6TyGASq5jnMMf1sqp4eo86VQQya/CwslrogWCr8deDeXouYAcZa977o/E59gC9u+8kaPewA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Pulpit\\C#\\Gra1\\Gra1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\adasd\\OneDrive - Ye9pfoBh9P\\Dokumenty\\GitHub\\Project-Hero\\Gra1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adasd\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
