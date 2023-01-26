@@ -98,30 +98,40 @@ namespace project
             Console.WriteLine("1: Fireball, 2: Thunder, 3: Flames of hell, 4:Healing potion");
             int spell = int.Parse(Console.ReadLine());
             double damage = 0;
+            double heal = 0;
             switch (spell)
             {
                 case 1:
+                    if(this.MP >= 9)
                     damage = this.Strength * 0.9;
                     enemy.HP -= damage;
+                    if(this.MP >= 9)
                     this.MP -= 9;
                     Console.WriteLine("Fireball hits enemy for {0} damage", damage);
                     break;
                 case 2:
+                    if(this.MP >= 5)
                     damage = this.Strength * 0.5;
                     enemy.HP -= damage;
+                    if(this.MP >= 5)
                     this.MP -= 5;
                     Console.WriteLine("Thunder hits enemy for {0} damage", damage);
                     break;
                 case 3:
+                    if(this.MP >= 20)
                     damage = this.Strength * 2;
                     enemy.HP -= damage;
+                    if(this.MP >= 20)
                     this.MP -= 20;
                     Console.WriteLine("Flames of hell hit enemy for {0} damage", damage);
                     break;
                 case 4:
-                    this.HP += 6;
+                    if(this.MP >= 12)
+                    heal = 6;
+                    this.HP += heal;
+                    if(this.MP >= 12)
                     this.MP -= 12;
-                    Console.WriteLine("You healed for 6 HP");
+                    Console.WriteLine("You healed for {0} HP", heal);
                     break;
                 default:
                     Console.WriteLine("Wrong spell selection");
@@ -151,11 +161,11 @@ namespace project
       Hero hero1 = Hero.Load("hero");
       int tour = 1;
 
-      Hero hero = new Hero("Edward Białykij", "sorcerer");
-      Console.WriteLine(hero1.Name + " Str:{0} Dex:{1} Int:{2} HP:{3}", hero1.GetStrength(), hero1.GetDexterity(), hero1.GetIntelligence(), hero1.HP);
+      //Hero hero = new Hero("Edward Białykij", "sorcerer");
+      Console.WriteLine(hero1.Name + " Str:{0} Dex:{1} Int:{2} HP:{3} MP:{4}", hero1.GetStrength(), hero1.GetDexterity(), hero1.GetIntelligence(), hero1.HP, hero1.MP);
 
       Hero hero2 = new Hero("Wataszka Stefan", "assassin");
-      Console.WriteLine(hero2.Name + " Str:{0} Dex:{1} Int:{2} HP:{3}", hero2.GetStrength(), hero2.GetDexterity(), hero2.GetIntelligence(), hero2.HP);
+      Console.WriteLine(hero2.Name + " Str:{0} Dex:{1} Int:{2} HP:{3} MP:{4}", hero2.GetStrength(), hero2.GetDexterity(), hero2.GetIntelligence(), hero2.HP, hero2.MP);
 
       Console.WriteLine();
 
